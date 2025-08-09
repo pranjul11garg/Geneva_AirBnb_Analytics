@@ -1,0 +1,47 @@
+# ---- Python virtual environments ----
+venv/
+.venv/
+
+# ---- Python cache & build files ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+
+# ---- Environment & config files ----
+.env
+*.env
+
+# ---- Data files (raw or sensitive) ----
+data/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.zip
+*.gz
+
+# Keep sample data if needed
+!data/sample_*
+
+# ---- Jupyter Notebook checkpoints ----
+.ipynb_checkpoints/
+
+# ---- OS-specific files ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- IDE/editor settings ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.Data/*
